@@ -102,3 +102,6 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 
 # This enables Whitenoise to serve the files
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
+
+LOGIN_URL = 'login'
